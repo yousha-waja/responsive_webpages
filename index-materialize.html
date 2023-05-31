@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Materialize Web Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div
+      class="container red-border"
+      style="min-height: 100vh; padding-top: 0.5em"
+    >
+      <div class="row head">
+        <div class="col s12 m3 center-align">
+          <img class="myFace" src="{{user.photo2}}" alt="My Face" />
+        </div>
+        <div class="col s12 m7 center-align offset-m2">
+          <h1>{{user.fullName}}</h1>
+        </div>
+      </div>
+
+      <div style="border: 0.2em double">
+        <div class="row">
+          <div
+            class="col palermo s12 m5 center-align"
+            style="min-height: 67vh; margin-top: 0.4em"
+          >
+            <h2
+              style="
+                font-size: 1em;
+                color: rgb(255, 255, 255);
+                background-color: rgba(255, 0, 0, 0.8);
+              "
+            >
+              {{city.name}}
+            </h2>
+          </div>
+          <div class="col s12 m7">
+            <p
+              style="
+                color: green;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                  sans-serif;
+              "
+            >
+              {{city.description}}
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="row"
+          style="
+            border: 0.2em double;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+              sans-serif;
+          "
+        >
+          <table>
+            <thead style="text-decoration: underline">
+              <tr>
+                <th style="background-color: green; color: aliceblue">
+                  Italian phrases:
+                </th>
+                <th style="color: red">English translation:</th>
+                <th style="background-color: rgb(255, 0, 0); color: aliceblue">
+                  Phrase description:
+                </th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td style="background-color: green; color: aliceblue">
+                  {{foreignLanguage.phrases.[0].foreignLanguage}}
+                </td>
+                <td style="color: red">
+                  {{foreignLanguage.phrases.[0].englishPhrase}}
+                </td>
+                <td style="background-color: rgb(255, 0, 0); color: aliceblue">
+                  {{foreignLanguage.phrases.[0].description}}
+                </td>
+              </tr>
+              <tr>
+                <td style="background-color: green; color: aliceblue">
+                  {{foreignLanguage.phrases.[1].foreignLanguage}}
+                </td>
+                <td style="color: red">
+                  {{foreignLanguage.phrases.[1].englishPhrase}}
+                </td>
+                <td style="background-color: rgb(255, 0, 0); color: aliceblue">
+                  {{foreignLanguage.phrases.[1].description}}
+                </td>
+              </tr>
+
+              <tr>
+                <td style="background-color: green; color: aliceblue">
+                  {{foreignLanguage.phrases.[2].foreignLanguage}}
+                </td>
+                <td style="color: red">
+                  {{foreignLanguage.phrases.[2].englishPhrase}}
+                </td>
+                <td style="background-color: rgb(255, 0, 0); color: aliceblue">
+                  {{foreignLanguage.phrases.[2].description}}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="row d-flex flex-grow-1">
+        <h3 class="d-flex" style="margin-top: 1em; text-decoration: underline;">Favourite Subjects</h3>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Subject</th>
+              <th scope="col">Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>{{favouriteSubjects.[0].name}}</td>
+              <td>{{favouriteSubjects.[0].description}}</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>{{favouriteSubjects.[1].name}}</td>
+              <td>{{favouriteSubjects.[1].description}}</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>{{favouriteSubjects.[2].name}}</td>
+              <td>{{favouriteSubjects.[2].description}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <a href="./index.html" class="link-primary pink-text text-accent-2">
+      <b class="right-align" style="display: block">Main page</b>
+    </a>
+  </body>
+</html>

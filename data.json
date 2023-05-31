@@ -1,0 +1,45 @@
+{
+    "user" : {
+        "fullName": "Yousha Waja",
+        "photo1" : "FaceB.png",
+        "photo2" : "FaceM.png"
+    },
+    "city" : {
+        "name" : "Palermo, Italy",
+        "photo" : "Palermo.png",
+        "description" : "Sicily's dynamic, decadent, sun-soaked capital is a dream for architecture buffs, foodies, and all lovers of life. You might think Italy's biggest opera house would be in Rome or Milan, but it's here. Teatro Massimo's copper dome hulks some 250 feet above the historic piazza it stands on (The White Lotus fans will recognize the theater from season 2). Palermo's striking gold-stone cathedral is one of the city's many Arab-Norman structures that date to sometime around the turn of the last millennia. Head to its rooftop to see the ancient city's terra-cotta skyline tumbling down toward the Tyrrhenian Sea. But it's the pulse of life that truly makes the city a beautiful place: whirring mopeds, swaying palms, Italian twosomes strolling arm in arm down centuries-old streets. Don't miss the souk-like maze of the Ballarò street market, where Palermitani buy almonds, olives, spices, and tomatoes the color of rubies by the bagful. As afternoon turns to early evening, settle in for an Aperol spritz or earthy nero d'Avola on the bohemian Piazza Caracciolo and watch the night unfold."
+        
+    },
+    "foreignLanguage" : {
+        "language" : "Italian Phrases",
+        "phrases" : [{
+            "englishPhrase" : "To have a devil for each hair.",
+            "foreignLanguage" : "Avere un diavolo per capello.",
+            "description" : "As idioms go, this is probably one of the most evocative! A person who has un diavolo per capello - a devil for each strand of hair on his head - is someone who is enraged to the point of losing self control. It is similar to saying that you are as mad as hell or furious in English."
+        },
+        {
+            "englishPhrase" : "Love rules his kingdom without a sword.",
+            "foreignLanguage" : "Amore regge il suo regno senza spada.",
+            "description" : "It suggests that love, compassion, and kindness have the power to govern or influence people without the need for force or aggression. It implies that a ruler or leader who embodies love and understanding can establish a harmonious and prosperous kingdom through peaceful means, rather than relying on violence or control."
+        },
+        {
+            "englishPhrase" : "As long as there is life, there is hope.",
+            "foreignLanguage" : "Finché c'é vita c'é speranza.",
+            "description" : "It conveys the idea that as long as a person is alive, there is always a possibility for positive outcomes, better circumstances, or a brighter future. It emphasizes the resilience and optimism that can be derived from the simple fact of being alive."
+        }]
+    },
+    "favouriteSubjects" : [
+        {
+            "name" : "Physics",
+            "description" : "Physics is the branch of science that deals with the study of matter, energy, and their interactions. It seeks to understand the fundamental principles and laws that govern the behavior of the physical world, from the smallest particles to the vastness of the universe."
+        },
+        {
+            "name" : "Computer Science",
+            "description" : "Computer science is the discipline that deals with the study of computers and computational systems, including their design, development, and application. It encompasses both theoretical and practical aspects of computing and focuses on understanding how computers work and how they can be used to solve problems."
+        },
+        {
+            "name" : "Electromagnetics",
+            "description" : "Electromagnetics, also known as electromagnetic field theory or electromagnetism, is a branch of physics that studies the behavior and interaction of electric and magnetic fields. It is a fundamental theory that underlies many areas of physics and engineering, including electronics, telecommunications, power systems, and optics."
+        }
+    ]
+}
